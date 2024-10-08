@@ -1,0 +1,14 @@
+{
+	"name": "bun-framework-rsc",
+	"type": "module",
+	"exports": {
+		"./client": "./client.tsx",
+		"./server": "./server.tsx"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^5.0.0"
+	}
+}

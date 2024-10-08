@@ -7,11 +7,11 @@ wipDevServerExpectHugeBreakingChanges({
 		serverEntryPoint: "./bun-framework-src/server.tsx",
 		clientEntryPoint: "./bun-framework-src/client.tsx",
 		builtInModules: {},
-		serverComponents: {
-			separateSSRGraph: true,
-			serverRuntimeImportSource: "react-server-dom-webpack/server",
-			serverRegisterClientReferenceExport: "react-server-dom-webpack/client",
-		},
+		serverComponents: {},
+		separateSSRGraph: true,
+		serverRuntimeImportSource: "react-server-dom-webpack/server",
+		serverRegisterClientReferenceExport: "react-server-dom-webpack/client",
+		// },
 		// reactFastRefresh: {
 		// 	importSource: "react-refresh/runtime",
 		// },
