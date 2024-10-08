@@ -1,3 +1,8 @@
 export default function Index() {
-	return <div>Index</div>;
+	return (
+		<div>
+			<h1>Index</h1>
+			<a href="/second">Second</a>
+		</div>
+	);
 }

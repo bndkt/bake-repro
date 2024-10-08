@@ -2,7 +2,9 @@
 	"name": "bake-repro",
 	"type": "module",
 	"scripts": {
-		"dev": "bun ./index.ts"
+		"ootb": "bun --watch ./ootb.ts",
+		"manual": "bun --watch ./manual.ts",
+		"custom": "bun --watch ./custom.ts"
 	},
 	"dependencies": {
 		"react": "^0.0.0-experimental-1460d67c-20241003",
