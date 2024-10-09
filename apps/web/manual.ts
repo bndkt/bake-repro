@@ -8,8 +8,8 @@ import { routes } from "./routes";
 
 wipDevServerExpectHugeBreakingChanges({
 	framework: {
-		serverEntryPoint: "bun-framework-src/server",
-		clientEntryPoint: "bun-framework-src/client",
+		serverEntryPoint: "./bun-framework-rsc/server.tsx",
+		clientEntryPoint: "./bun-framework-rsc/client.tsx",
 		builtInModules: {},
 		serverComponents: {},
 		separateSSRGraph: true,
