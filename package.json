@@ -1,10 +1,9 @@
 {
-	"name": "web",
+	"name": "bake-repro",
 	"type": "module",
 	"scripts": {
 		"ootb": "bun --watch ./ootb.ts",
-		"manual": "bun-14504 --watch ./manual.ts",
-		"custom": "bun --watch ./custom.ts"
+		"manual": "bun-14504 --watch ./manual.ts"
 	},
 	"dependencies": {
 		"react": "^0.0.0-experimental-1460d67c-20241003",
