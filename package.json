@@ -2,7 +2,7 @@
 	"name": "bake-repro",
 	"type": "module",
 	"scripts": {
-		"ootb": "bun --watch ./ootb.ts",
+		"ootb": "bun-14504 --watch ./ootb.ts",
 		"manual": "bun-14504 --watch ./manual.ts"
 	},
 	"dependencies": {
