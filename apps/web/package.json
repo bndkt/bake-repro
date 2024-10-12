@@ -3,7 +3,7 @@
 	"type": "module",
 	"scripts": {
 		"ootb": "bun --watch ./ootb.ts",
-		"manual": "bun --watch ./manual.ts",
+		"manual": "bun-14504 --watch ./manual.ts",
 		"custom": "bun --watch ./custom.ts"
 	},
 	"dependencies": {
