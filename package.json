@@ -1,5 +1,24 @@
 {
-	"name": "bake-repro",
+	"name": "web",
 	"type": "module",
-	"workspaces": ["apps/*", "packages/*"]
+	"scripts": {
+		"ootb": "bun --watch ./ootb.ts",
+		"manual": "bun-14504 --watch ./manual.ts",
+		"custom": "bun --watch ./custom.ts"
+	},
+	"dependencies": {
+		"react": "^0.0.0-experimental-1460d67c-20241003",
+		"react-dom": "^0.0.0-experimental-1460d67c-20241003",
+		"react-refresh": "^0.0.0-experimental-1460d67c-20241003",
+		"react-server-dom-webpack": "^0.0.0-experimental-1460d67c-20241003"
+	},
+	"devDependencies": {
+		"@types/bun": "latest",
+		"@types/react": "npm:types-react@rc",
+		"@types/react-dom": "npm:types-react-dom@rc"
+	},
+	"overrides": {
+		"@types/react": "npm:types-react@rc",
+		"@types/react-dom": "npm:types-react-dom@rc"
+	}
 }
