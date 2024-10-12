@@ -16,5 +16,8 @@ wipDevServerExpectHugeBreakingChanges({
 		// 	importSource: "react-refresh/runtime",
 		// },
 	},
-	routes,
+	routes: [
+		{ pattern: "/", entrypoint: "./routes/index.tsx" },
+		{ pattern: "/second", entrypoint: "./routes/second.tsx" },
+	],
 });

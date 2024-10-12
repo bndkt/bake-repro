@@ -4,5 +4,8 @@ import { routes } from "./routes";
 
 wipDevServerExpectHugeBreakingChanges({
 	framework: "react-server-components",
-	routes,
+	routes: [
+		{ pattern: "/", entrypoint: "./routes/index.tsx" },
+		{ pattern: "/second", entrypoint: "./routes/second.tsx" },
+	],
 });
