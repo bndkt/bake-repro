@@ -1,11 +1,9 @@
 import { serverManifest } from "bun:bake/server";
 import type { Bake } from "bun";
 // @ts-ignore
-import { renderToHtml } from "bun-framework-rsc/ssr.tsx" with {
-	bunBakeGraph: "ssr",
-};
-// @ts-ignore
 import { renderToReadableStream } from "react-server-dom-webpack/server.browser";
+
+import { renderToHtml } from "./ssr.tsx" with { bunBakeGraph: "ssr" };
 
 // `server.tsx` exports a function to be used for handling user routes. It takes
 // in the Request object, the route's module, and extra route metadata.
