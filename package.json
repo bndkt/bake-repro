@@ -6,10 +6,10 @@
 		"manual": "bun-14504 --watch ./manual.ts"
 	},
 	"dependencies": {
-		"react": "^0.0.0-experimental-1460d67c-20241003",
-		"react-dom": "^0.0.0-experimental-1460d67c-20241003",
-		"react-refresh": "^0.0.0-experimental-1460d67c-20241003",
-		"react-server-dom-webpack": "^0.0.0-experimental-1460d67c-20241003"
+		"react": "0.0.0-experimental-6cf85185-20241014",
+		"react-dom": "0.0.0-experimental-6cf85185-20241014",
+		"react-refresh": "0.0.0-experimental-6cf85185-20241014",
+		"react-server-dom-webpack": "0.0.0-experimental-6cf85185-20241014"
 	},
 	"devDependencies": {
 		"@types/bun": "latest",
