@@ -1,7 +1,5 @@
 import { wipDevServerExpectHugeBreakingChanges } from "bun";
 
-import { routes } from "./routes";
-
 wipDevServerExpectHugeBreakingChanges({
 	framework: {
 		serverEntryPoint: "./bun-framework-rsc/server.tsx",
